@@ -21,7 +21,7 @@ const MainPage = () => {
                 playsInline
                 className='video'
                 >
-                    <source src="/FixWell.mp4" type="video/mp4"/>
+                    <source src="/fixwell.mp4" type="video/mp4"/>
                 </video>
                 <div className='blur-overlay'></div>
                 <p className="video-overlay-text">WellFix Rakennus - Luotettava Kumppaninne Rakentamisessa</p>

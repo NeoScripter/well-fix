@@ -14,7 +14,7 @@ export const DrawerContainer = ({ setActiveTab = () => {} }) => {
     const [openDrawer, setOpenDrawer] = React.useState(false);
 
     const drawerBtn = () => {
-        setOpenDrawer(!openDrawer);
+        setOpenDrawer(prev => !prev);
     };
 
     const CustomDrawer = styled(Drawer)`

@@ -1,5 +1,8 @@
 import { Helmet } from 'react-helmet';
 import DoneIcon from '@mui/icons-material/Done';
+import BetonImage from "../../../beton.jpg";
+import SvarkaImage from "../../../svarka.jpg";
+
 
 const About = () => {
   return (
@@ -21,7 +24,7 @@ const About = () => {
         <div id='company-info'>
           <div className='right-div'>
             <img
-              src="svarka.jpg"
+              src={SvarkaImage}
               alt="Hitsaustyö"
               className="about-image"
             />
@@ -71,7 +74,7 @@ const About = () => {
           </div>
           <div className='right-div'>
             <img
-              src="beton.jpg"
+              src={BetonImage}
               alt="Betonityömaa"
               className="about-image"
             />

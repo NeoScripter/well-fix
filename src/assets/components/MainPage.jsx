@@ -7,6 +7,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import Services from './Services';
 import ImageListMui from './ImageListMui';
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
+import FixWellVideo from "../../../public/FixWell.mp4";
 
 
 
@@ -24,7 +25,7 @@ const MainPage = () => {
                 playsInline
                 className='video'
                 >
-                    <source src="FixWell.mp4" type="video/mp4"/>
+                    <source src={FixWellVideo} type="video/mp4"/>
                 </video>
                 <div className='blur-overlay'></div>
                 <p className="video-overlay-text">WellFix Rakennus - Luotettava Kumppaninne Rakentamisessa</p>
